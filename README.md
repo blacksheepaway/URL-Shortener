@@ -31,7 +31,7 @@ Esta aplicação pode ser facilmente adaptada para:
 
 ## Exemplo
 
-![Exemplo de aplicação](./example.png)
+![image](https://user-images.githubusercontent.com/50200471/230756666-36f7df15-92a7-4505-a2d3-6464a8d8b486.png)
 
 ## Contribuição
 
