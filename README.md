@@ -1,47 +1,41 @@
 # URL Shortener
 
-Este projeto é um encurtador de URL simples e eficiente, desenvolvido em Python com o auxílio das bibliotecas `pyshorteners` e `tkinter`. A aplicação permite encurtar URLs longas usando o serviço TinyURL e copiar o resultado para a área de transferência do sistema.
+Welcome to the URL Shortener project! This application allows users to shorten long URLs quickly and easily with a user-friendly graphical interface. The application uses the `pyshorteners` library to generate short URLs, and `tkinter` to create a clean and intuitive GUI.
 
-## Técnicas e tecnologias utilizadas
+## How it Works
 
-- **Python**: Linguagem de programação utilizada para desenvolver a aplicação.
-- **pyshorteners**: Biblioteca Python para interagir com vários serviços de encurtamento de URL.
-- **tkinter**: Biblioteca Python para criar interfaces gráficas.
+The URL Shortener application lets users input a long URL, which is then shortened using the `pyshorteners` library. The application generates a short URL using the TinyURL service and displays it in the GUI. Users can also copy the short URL to their clipboard with a single click.
 
-## Conceitos
+## Technologies and Techniques
 
-- **GUI (Interface Gráfica do Usuário)**: Utilizamos a biblioteca `tkinter` para criar uma interface gráfica simples e intuitiva para a aplicação.
-- **APIs de encurtamento de URL**: A aplicação faz uso da biblioteca `pyshorteners` para interagir com o serviço de encurtamento de URL TinyURL.
+- Python
+- URL shortening with `pyshorteners`
+- `tkinter` for creating the graphical user interface
 
-## Modificações e aplicações úteis
+## Example
 
-Esta aplicação pode ser facilmente adaptada para:
-
-- Suportar outros serviços de encurtamento de URL, como bit.ly ou goo.gl, simplesmente modificando a chamada à biblioteca `pyshorteners`.
-- Implementar recursos adicionais, como histórico de URLs encurtadas ou compartilhamento direto do resultado nas redes sociais.
-- Integrar a funcionalidade de encurtamento de URL em outras aplicações ou sistemas.
-
-## Como funciona
-
-1. O usuário insere a URL longa no campo de entrada.
-2. Ao clicar no botão "Shorten URL", a aplicação chama a função `shorten_url`.
-3. A função `shorten_url` usa a biblioteca `pyshorteners` para gerar uma URL encurtada usando o serviço TinyURL.
-4. A URL encurtada é exibida em um rótulo abaixo do campo de entrada.
-5. O usuário pode clicar no botão "Copiar URL" para copiar a URL encurtada para a área de transferência do sistema.
-
-## Exemplo
+When the URL Shortener application is run, users can input the long URL they want to shorten. After clicking the "URL Encurtado" button, the application generates and displays the short URL in the interface.
 
 ![image](https://user-images.githubusercontent.com/50200471/230756666-36f7df15-92a7-4505-a2d3-6464a8d8b486.png)
 
-## Contribuição
+## Modification for Other Applications
 
-Sinta-se à vontade para contribuir com este projeto! Você pode fazer isso de várias maneiras:
+The URL Shortener application can be easily modified for various purposes. For example, you could:
 
-1. Reportar bugs e solicitar recursos.
-2. Melhorar o código existente ou adicionar novos recursos.
-3. Atualizar a documentação ou criar tutoriais e guias.
-4. Divulgar o projeto para outras pessoas interessadas.
+- Add support for additional URL shortening services
+- Create a history of shortened URLs, allowing users to revisit previously shortened links
+- Integrate with a user authentication system to track and manage shortened URLs for individual users
 
-## Licença
+## Contribution
 
-Este projeto está licenciado sob a [Licença MIT] que permite o uso, cópia, modificação e distribuição livre do código-fonte, desde que a licença original seja incluída e os direitos autorais sejam respeitados.
+Contributions to improve or expand the project are highly appreciated. To contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add a new feature'`)
+4. Push your branch to your fork (`git push origin feature-branch`)
+5. Create a pull request
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). You are free to use, modify, and distribute the code as long as the license terms are met.
